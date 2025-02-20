@@ -17,6 +17,13 @@ In this phase, your focus is on understanding the provided developer code, revie
 
 ### Project Details
 
+### Content 
+
+- [**Situation**](#situation)
+- [**Task**](#task)
+- [**Action**](#action)
+- [**Result**](#result)
+
 - Online Shopping Protal to Purchase Electronics Stuff.
 - Build using Node JS.
 - Part of Hackaton Phase 1 `Train With Shubham Junoon Batch 9`.
