@@ -25,7 +25,7 @@ In this phase, your focus is on understanding the provided developer code, revie
 - [**Situation**](#situation)
 - [**Task**](#task)
 - [**Action**](#action)
-- [**Result**](#result)
+- [**Result**](#result--resume)
 
 ## Getting Started
 
@@ -98,7 +98,7 @@ All this while ensuring:
 
 ---
 
-### Result
+### Result / Resume
 
 - Successfully deployed the `Online Shopping Portal` on the internet using DevOps automation tools.
 - Improved `deployment speed by 50% `and reduced `Docker image size by 1GB` using multi-stage builds.
