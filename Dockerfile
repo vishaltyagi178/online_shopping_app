@@ -1,11 +1,11 @@
-# Stage 1 - Development build
+# Stage 1 - Development
 FROM node:18 AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
 
-# Stage 2 - Production build
+# Stage 2 - Production
 FROM node:18-alpine
 WORKDIR /app
 COPY --from=builder /app .
