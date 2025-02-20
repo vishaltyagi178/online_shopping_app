@@ -30,7 +30,9 @@ In this phase, your focus is on understanding the provided developer code, revie
 ## Getting Started
 
 - Video Demonstration
-![Video Demonstration](public/videoDemo.mp4)
+
+  [Video Demonstration](https://www.dropbox.com/scl/fi/06xq03rkx56hiak1080bo/videoDemo.mp4?rlkey=dje3ntpcd9zc3rzz1a1canhch&st=1vsn8k90&dl=0)
+
 1. Home Page
 ![Home Page](public/homePage.png)
 1. Admin Page
