@@ -61,7 +61,27 @@ All this while ensuring:
 
 ---
 
+### Action
 
+> I did this...
+
+- Understood the [ROADMAP.md](ROADMAP.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for build up the project.
+- Gathering the resources needed to fulfill the [`Task`](#task).
+- Build a [`Docker Installation Script`](docker_installation.sh) automation script for installing and using Docker.
+> Running Script explained in [`COMMANDS.md File`]()!
+- Setting up this Git Repository and Adding and Commiting Files
+- Build a Dockerfile for the Online Shopping Portal Application
+- Implemented Multi-Stage Docker Build which reduced the size of Image by `1GB` and increased deployment speed by `50%` improving efficiency and faster deployment
+- Build a [`.dockerignore`](.dockerignore) file for ignoring the `Files and Directory` which are unecessary. 
+- Using .dockerignore help reduce the docker image size and improving its deployment speed.
+- Built a `Docker Compose` file
+- - Lead to faster implementation of Application
+- - Performing Regular `Health Checks`.
+- - Custom Network Configuration
+- Implemented `Docker Scout` for Checking `Vulnerabilties` of Application. [`Docker Scout Report`](image_report.md)
+- Used `Amazon EC2` to bring the Application to Internet
+
+> Shown in Video Demonstration
 
 ---
 
