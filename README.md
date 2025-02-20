@@ -34,9 +34,34 @@ Before diving into the tasks, please review the following key resources:
 
 These documents provide the context needed to understand the project requirements and the best practices expected for your contributions.
 
+---
+
 ### Situation
 
 As part of the **Train With Shubham Hackathon Phase 1**, I was given the charge of deploying an Online Shopping Portal to the internet. The main goal was to ensure that the website was easily accessible, reliable, and scalable so that it could handle user traffic efficiently. Achiving this using DevOps automation tools to develop the deployment process, reducing manual effort, and improving overall system performance. Involved setting up the necessary infrastructure, automating deployments, and ensuring the application could run smoothly in a real time.
+
+---
+
+### Task 
+
+- Develop the Required Infrastructre for Online Shopping Portal
+- Clonning Necessary Code and Artifacts ensurig Secrutiy and Accessbility
+- Strategize a `Deployment Plan` for brining the Applicaion to the Internet. 
+
+All this while ensuring:
+
+- Gathering Necessary Resource for building the project.
+- Implementing Automation Scripts.
+- Using tools like `Docker` to build real world application.
+- Grasp a good Hands-On on DevOps tools.
+- Helping and Learning through Community!
+- Strong Cloud and DevOps Infrastructure.
+
+> Note: Remembering the Requirements
+
+---
+
+
 
 ---
 
