@@ -29,8 +29,8 @@ In this phase, your focus is on understanding the provided developer code, revie
 
 ## Getting Started
 
-<!-- - Video Demonstration
-![Video Demonstration](public/videoDemo.mp4) -->
+- Video Demonstration
+![Video Demonstration](public/videoDemo.mp4)
 1. Home Page
 ![Home Page](public/homePage.png)
 1. Admin Page
