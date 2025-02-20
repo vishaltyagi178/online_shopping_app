@@ -29,6 +29,13 @@ In this phase, your focus is on understanding the provided developer code, revie
 
 ## Getting Started
 
+<!-- - Video Demonstration
+![Video Demonstration](public/videoDemo.mp4) -->
+1. Home Page
+![Home Page](public/homePage.png)
+1. Admin Page
+![Admin Page](public/adminPage.png)
+
 ## Guidelines & Resources
 
 Before diving into the tasks, please review the following key resources:
