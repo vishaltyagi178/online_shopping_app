@@ -30,7 +30,7 @@ export function Navbar() {
 
                     <div className="d-flex align-items-center gap-2">
                         <a 
-                            href="https://github.com/iemafzalhassan/online_shop" 
+                            href="https://github.com/LondheShubham153/online_shop_hackathon" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="social-button"
@@ -39,7 +39,7 @@ export function Navbar() {
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                         <a 
-                            href="https://iemafzalhassan.tech" 
+                            href="https://www.trainwithshubham.com/s/pages/junoonbatch9" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="social-button"
