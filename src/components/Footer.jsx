@@ -108,7 +108,15 @@ export function Footer() {
                 
                 <div className="text-center copyright-section py-2">
                     <div className="mb-1">
-                        Made with <FontAwesomeIcon icon={faHeart} className="heart-icon" /> for the community
+                        Made with <FontAwesomeIcon icon={faHeart} className="heart-icon" /> by{" "}
+                        <a 
+                            href="https://iemafzalhassan.tech" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="author-link"
+                        >
+                            Md. Afzal Hassan Ehsani
+                        </a>
                     </div>
                     <div>
                         <FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()} Online Shop. 
