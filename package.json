@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "start": "vite preview --host --port 5173",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -26,6 +27,7 @@
     "react-search-autocomplete": "^8.5.2",
     "react-spinners": "^0.14.1",
     "react-toastify": "^10.0.5",
+    "serve": "^14.0.0",
     "react-tooltip": "^5.28.0"
   },
   "devDependencies": {
@@ -46,3 +48,4 @@
     "react-dom": "^18.0.0"
   }
 }
+
