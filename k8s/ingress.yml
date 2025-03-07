@@ -5,13 +5,22 @@ metadata:
   namespace: online-shop-prod
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
-    nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
   ingressClassName: nginx
   rules:
   - host: online-shop.iemafzalhassan.tech
     http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: online-shop
+            port:
+              number: 80
+  # Add this section to handle requests to the public IP
+  - http:
       paths:
       - path: /
         pathType: Prefix
