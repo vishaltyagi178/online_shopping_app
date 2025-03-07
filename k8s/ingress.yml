@@ -6,6 +6,10 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
     nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "30"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "1800"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "1800"
 spec:
   ingressClassName: nginx
   rules:
@@ -19,7 +23,6 @@ spec:
             name: online-shop
             port:
               number: 80
-  # Add this section to handle requests to the public IP
   - http:
       paths:
       - path: /
