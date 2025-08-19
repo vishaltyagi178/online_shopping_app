@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+
+metadata:
+  name: online-shop-svc
+  namespace: online-shop-ns
+spec:
+  selector:
+    app: online-shop
+  ports:
+    - protocol: TCP
+      port: 82
+      targetPort: 80
+

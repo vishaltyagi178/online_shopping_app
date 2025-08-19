@@ -1,0 +1,37 @@
+kind: Deployment
+apiVersion: apps/v1
+
+metadata:
+  name: online-shop-deployment
+  namespace: online-shop-ns
+  labels:
+    app: online-shop
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: online-shop
+
+  template:
+    metadata:
+      name: online-shop-pod
+      namespace: online-shop-ns
+      labels:
+        app: online-shop
+
+    spec:
+      containers:
+      - name: online-shop-container
+        image: vishaltyagi178/online-shop:v1
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 10m
+            memory: 100Mi
+
+          limits:
+            cpu: 100m
+            memory: 256Mi
+
